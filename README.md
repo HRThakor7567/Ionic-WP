@@ -1,26 +1,54 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic-wp
+Build app of your Wordpress Blog with [Ionic](https://ionicframework.com/)
 
-## How to use this template
+# Installation
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+You need install [WP REST API v2](http://v2.wp-api.org/) in your Wordpress Site.
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+npm install -g ionic cordova
+ionic start myApp https://github.com/deltcod/ionic-wp
+npm install
 ```
 
-Then, to run it, cd into `myBlank` and run:
+# Configure
+//TODO
 
+# Use
+## Android
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+ionic cordova platform add android
+ionic cordova run android
+```
+## iOS
+```bash
+ionic cordova platform add ios
+ionic cordova run ios
+```
+## Web
+```bash
+ionic serve
 ```
 
-Substitute ios for android if not on a Mac.
+# Package Build
+See [Ionic Package Build](https://ionicframework.com/docs/cli/package/build/) to build package.
 
+# Requirements
+
+* [Ionic](https://ionicframework.com/)
+* [Cordova](https://cordova.apache.org/)
+* [WP REST API v2](http://v2.wp-api.org/)
+* [WP API ANGULAR](https://github.com/wordpress-clients/wp-api-angular)
+
+# Versioning
+
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags in this repository](https://github.com/deltcod/ionic-wp/tags).
+
+# Author
+
+**Adam Alvarado Bertomeu** [deltcod](https://github.com/deltcod)
+
+See also the list of [contributors](https://github.com/deltcod/ionic-wp/graphs/contributors) who participated in this project.
+
+# License
+This LaravelTube is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
