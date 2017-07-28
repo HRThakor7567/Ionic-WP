@@ -17,7 +17,7 @@ import {
 
 
 export function WpApiLoaderFactory(http) {
-    return new WpApiStaticLoader(http, 'https://api.wp-app.org');
+    return new WpApiStaticLoader(http, 'https://api.wp-app.org/wp-json');
 }
 
 @NgModule({

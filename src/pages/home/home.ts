@@ -15,7 +15,7 @@ export class HomePage {
         this.presentLoading();
         this.posts = this.wpProvider.getPosts();
         this.posts.subscribe(data =>
-            this.loader.dismiss();
+            this.loader.dismiss()
     );
   }
 
