@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {Post} from "../../providers/wp/wp";
 
-@IonicPage()
 @Component({
-    selector: 'page-post-page',
-    templateUrl: 'post-page.html',
+    selector: 'post-page',
+    templateUrl: 'post.html',
 })
 export class PostPage {
     post: Post;
