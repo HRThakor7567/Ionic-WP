@@ -7,6 +7,18 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { WpProvider } from '../providers/wp/wp';
+import {Http, HttpModule} from "@angular/http";
+
+import {
+    WpApiModule,
+    WpApiLoader,
+    WpApiStaticLoader
+} from 'wp-api-angular'
+
+
+export function WpApiLoaderFactory(http) {
+    return new WpApiStaticLoader(http, 'https://api.wp-app.org');
+}
 
 @NgModule({
   declarations: [
@@ -15,6 +27,12 @@ import { WpProvider } from '../providers/wp/wp';
   ],
   imports: [
     BrowserModule,
+      HttpModule,
+      WpApiModule.forRoot({
+          provide: WpApiLoader,
+          useFactory: (WpApiLoaderFactory),
+          deps: [Http]
+      }),
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
