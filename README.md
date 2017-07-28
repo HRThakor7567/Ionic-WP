@@ -51,4 +51,4 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 See also the list of [contributors](https://github.com/deltcod/ionic-wp/graphs/contributors) who participated in this project.
 
 # License
-This LaravelTube is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+This Ionic-WP is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
