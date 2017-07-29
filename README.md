@@ -8,11 +8,14 @@ You need install [WP REST API v2](http://v2.wp-api.org/) in your Wordpress Site.
 ```bash
 npm install -g ionic cordova
 ionic start myApp https://github.com/deltcod/ionic-wp
+cd ionic-wp/
 npm install
 ```
 
 # Configure
-//TODO
+To configure your app, go to src/app and open app.config.ts
+
+If you want change colors of your app, go to src/theme and open variable.scss
 
 # Use
 ## Android

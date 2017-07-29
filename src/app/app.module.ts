@@ -8,6 +8,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { WpProvider } from '../providers/wp/wp';
 import {Http, HttpModule} from "@angular/http";
+import {ENV} from "./app.config";
 
 import {
     WpApiModule,
@@ -17,7 +18,7 @@ import {
 
 
 export function WpApiLoaderFactory(http) {
-    return new WpApiStaticLoader(http, 'https://api.wp-app.org/wp-json');
+    return new WpApiStaticLoader(http, ENV.WEBPAGE+'/wp-json');
 }
 
 @NgModule({

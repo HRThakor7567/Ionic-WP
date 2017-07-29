@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, LoadingController, Loading } from 'ionic-angular';
 import { Observable } from 'rxjs/Observable';
 import {WpProvider, Post} from "../../providers/wp/wp";
+import {ENV} from "../../app/app.config";
 
 @Component({
     selector: 'page-home',
@@ -36,5 +37,9 @@ export class HomePage {
           content: "Loading..."
       });
       this.loader.present();
+  }
+
+  getAppName() {
+        return ENV.APPNAME;
   }
 }
