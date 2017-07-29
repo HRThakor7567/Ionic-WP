@@ -1,4 +1,5 @@
 # Ionic-wp
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Build app of your Wordpress Blog with [Ionic](https://ionicframework.com/)
 
 # Installation
