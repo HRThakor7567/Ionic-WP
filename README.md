@@ -7,8 +7,8 @@ You need install [WP REST API v2](http://v2.wp-api.org/) in your Wordpress Site.
 
 ```bash
 npm install -g ionic cordova
-ionic start myApp https://github.com/deltcod/ionic-wp
-cd ionic-wp/
+git clone https://github.com/deltcod/Ionic-WP.git
+cd Ionic-WP/
 npm install
 ```
 
