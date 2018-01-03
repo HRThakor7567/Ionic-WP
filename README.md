@@ -9,7 +9,7 @@ You need install [WP REST API v2](http://v2.wp-api.org/) in your Wordpress Site.
 
 ```bash
 npm install -g ionic cordova
-git clone https://github.com/deltcod/Ionic-WP.git
+git clone https://github.com/d3ltcod/Ionic-WP.git
 cd Ionic-WP/
 npm install
 ```
@@ -47,13 +47,13 @@ See [Ionic Package Build](https://ionicframework.com/docs/cli/package/build/) to
 
 # Versioning
 
-I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags in this repository](https://github.com/deltcod/ionic-wp/tags).
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags in this repository](https://github.com/d3ltcod/ionic-wp/tags).
 
 # Author
 
-**Adam Alvarado Bertomeu** [deltcod](https://github.com/deltcod)
+**Adam Alvarado Bertomeu** [d3ltcod](https://github.com/d3ltcod)
 
-See also the list of [contributors](https://github.com/deltcod/ionic-wp/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/d3ltcod/ionic-wp/graphs/contributors) who participated in this project.
 
 # License
 This Ionic-WP is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
